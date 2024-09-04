@@ -302,6 +302,9 @@ main{
     width: 100%;
     height: 100%;
 }
+.img_02{
+    width: 105%;
+}
 /*Contenedor titulos & Presentacion*/
 .contenedor_titulos{
     width: 80%;
@@ -497,10 +500,6 @@ main{
     color: var(--LightFont);
     font-size: var(--lg);
 }
-/* .cafe_01:hover, .cafe_02:hover, .cafe_03:hover,
-.cafe_04:hover{
-    transform: scale(1.05);
-} */
 .productos_cafes img{
     width: 100%;
     height: auto;
@@ -947,7 +946,7 @@ footer img{
 }
 .info_footer{
     height: 100%;
-    width: 50%;
+    width: 60%;
     gap: 5px;
     display: flex;
     justify-content: center;
