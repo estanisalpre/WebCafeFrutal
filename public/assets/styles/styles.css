@@ -1168,7 +1168,7 @@ footer img{
         font-weight: 600;
     }
     /*Admin Button & Botón Carta*/
-    #adminButton, #logOutButton{
+    #adminButton, #logOutButton, .buttonCarta{
         display: none;
     }
     .cartaCafeFrutal{
