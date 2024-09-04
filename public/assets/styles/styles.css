@@ -1174,7 +1174,7 @@ footer img{
     .cartaCafeFrutal{
         display: none;
     }
-    .cartaCafeFrutalHamburguesa, #adminButtonHamburguesa, #logOutButtonHamburguesa{
+    .cartaCafeFrutalHamburguesa, .adminButton, .logOutButton{
         display: block;
     }
 }
