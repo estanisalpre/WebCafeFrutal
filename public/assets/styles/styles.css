@@ -1174,9 +1174,6 @@ footer img{
     .cartaCafeFrutal{
         display: none;
     }
-    .cartaCafeFrutalHamburguesa, .adminButton, .logOutButton{
-        display: block;
-    }
 }
 /*Animaciones Responsive*/
 @keyframes movimiento_icono_responsive {
