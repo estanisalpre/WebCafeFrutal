@@ -85,8 +85,18 @@ nav button, #logOutButton{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 150px;
+    width: 170px;
     height: 70%;
+}
+nav button a{
+    text-decoration: none;
+    color: var(--ColorCafeFont);
+    font-size: var(--md);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
 }
 #logOutButton{
     display: none;
@@ -253,7 +263,7 @@ main{
     justify-content: space-around;
     gap: 20px;
     padding: 10px;
-    background-image: url(/public/assets/img/backgrounds/background_01.png);
+    background-image: url(./assets/img/backgrounds/background_01.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -793,7 +803,7 @@ main{
     height: 880px;
     display: flex;
     justify-content: center;
-    background-image: url(/public/assets/img/logo/logo_con_fondo.jpg);
+    background-image: url(./assets/img/logo/logo_con_fondo.jpg);
     background-size: cover;
     background-position: center;
     align-items: center;
@@ -1154,11 +1164,14 @@ footer img{
         height: 50%;
     }
     .primer_p, .segundo_p{
-        font-size: 10px;
+        font-size: 9px;
         font-weight: 600;
     }
-    /*Admin Button*/
+    /*Admin Button & Botón Carta*/
     #adminButton{
+        display: none;
+    }
+    .cartaCafeFrutal{
         display: none;
     }
 }
