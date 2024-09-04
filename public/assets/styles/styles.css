@@ -124,6 +124,7 @@ nav button:hover, #logOutButton:hover{
     justify-content: center;
     background-image: var(--BackgroundCafe);
     filter: drop-shadow(150px 0px 20px rgba(0,0,0,0.5));
+    z-index: 999999999;
 }
 .titulo_hamburguesa{
     width: 100%;
@@ -263,7 +264,7 @@ main{
     justify-content: space-around;
     gap: 20px;
     padding: 10px;
-    background-image: url(./assets/img/backgrounds/background_01.png);
+    background-image: url(/assets/img/backgrounds/background_01.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -803,7 +804,7 @@ main{
     height: 880px;
     display: flex;
     justify-content: center;
-    background-image: url(./assets/img/logo/logo_con_fondo.jpg);
+    background-image: url(/assets/img/logo/logo_con_fondo.jpg);
     background-size: cover;
     background-position: center;
     align-items: center;
@@ -1164,15 +1165,18 @@ footer img{
         height: 50%;
     }
     .primer_p, .segundo_p{
-        font-size: 9px;
+        font-size: 10px;
         font-weight: 600;
     }
     /*Admin Button & Botón Carta*/
-    #adminButton{
+    #adminButton, #logOutButton{
         display: none;
     }
     .cartaCafeFrutal{
         display: none;
+    }
+    .cartaCafeFrutalHamburguesa, #adminButtonHamburguesa, #logOutButtonHamburguesa{
+        display: block;
     }
 }
 /*Animaciones Responsive*/
